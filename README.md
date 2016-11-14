@@ -19,8 +19,7 @@ ExtendedOperation:
 	Subtract: BaseOperation.IOperation
 		int Operate(int,int)
 
-Explanation: Simple Calculator console application has only the reference of BaseOperation library and Extended Operation will
-	     be loaded dynamically in run time.
+Explanation: Simple Calculator console application has only the reference of BaseOperation library and Extended Operation will be loaded dynamically in run time.
 --------------------------------------------------------------------------------------------
 
 4. Add an interface to SimpleCalculator project : ICalculator
