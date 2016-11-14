@@ -1,0 +1,54 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "14ef461d271a2990e451bf45a7f2b2c88970617e"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "MEFinNetCore/1.0.0": {
+        "dependencies": {
+          "BaseOperation": "1.0.0",
+          "Microsoft.Composition": "1.0.30"
+        },
+        "runtime": {
+          "MEFinNetCore.dll": {}
+        }
+      },
+      "Microsoft.Composition/1.0.30": {
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Composition.AttributedModel.dll": {},
+          "lib/portable-net45+win8+wp8+wpa81/System.Composition.Convention.dll": {},
+          "lib/portable-net45+win8+wp8+wpa81/System.Composition.Hosting.dll": {},
+          "lib/portable-net45+win8+wp8+wpa81/System.Composition.Runtime.dll": {},
+          "lib/portable-net45+win8+wp8+wpa81/System.Composition.TypedParts.dll": {}
+        }
+      },
+      "BaseOperation/1.0.0": {
+        "dependencies": {
+          "Microsoft.Composition": "1.0.30"
+        },
+        "runtime": {
+          "BaseOperation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MEFinNetCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Composition/1.0.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IDOxST2DCUziePSD2vK3Z7LI6e1rejJCp21/rKZ8fdsyTcq9SfnAV8udi0GSIpjO9wwSLZx9Kfc7co3PTs7IlA=="
+    },
+    "BaseOperation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

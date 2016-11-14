@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "BaseOperation": "1.0.0-*",
+    "NETStandard.Library": "1.6.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": [ "dnxcore50", "portable-net45+win8" ]
+      // portable-net45+win8 is important for Microsoft.Composition dependencies.
+    }
+  }
+}
